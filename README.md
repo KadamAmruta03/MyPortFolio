@@ -8,7 +8,7 @@
 ![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=flat-square&logo=threedotjs)
 ![CSS3](https://img.shields.io/badge/CSS3-Custom_Design_System-1572B6?style=flat-square&logo=css3)
 ![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat-square&logo=vercel)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 
 </div>
 
@@ -156,4 +156,4 @@ npm run preview
 
 ## License
 
-This project is open-source under the [MIT License](LICENSE).
+This project is open-source 
