@@ -1,159 +1,79 @@
-# Amruta Kadam | Developer Portfolio
+# Amruta Kadam - Developer Portfolio
 
-<div align="center">
+Welcome to the repository for my personal developer portfolio! This project is a visually striking, fully responsive, and animated web application built to showcase my academic achievements, technical skills, projects, and certifications. 
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)
-![Vite](https://img.shields.io/badge/Vite-powered-646CFF?style=flat-square&logo=vite)
-![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?style=flat-square&logo=greensock)
-![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=flat-square&logo=threedotjs)
-![CSS3](https://img.shields.io/badge/CSS3-Custom_Design_System-1572B6?style=flat-square&logo=css3)
-![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat-square&logo=vercel)
+## 🌟 Features
 
+- **Interactive Dynamic UI:** Features a custom Matrix-style background animation and a smooth custom animated cursor.
+- **Modern Responsive Layout:** A sleek dark-themed design built from scratch with custom CSS3, featuring 7 distinct sections (Introduction, About, Education, Skills, Projects, Certifications, Contact).
+- **Scroll Animations:** Utilizes the raw Intersection Observer API to orchestrate complex scroll reveals, fade-ins, and step-by-step timeline progression animations.
+- **Projects & Certifications Carousels:** Custom-built image sliders to showcase project screenshots and certificate images seamlessly.
+- **Built for Performance:** Optimized rendering using modern React patterns, ensuring smooth 60fps animations.
 
-</div>
+## 🛠️ Tech Stack
 
-> A visually striking, fully responsive portfolio website built to showcase my journey as a Full Stack Developer — featuring a Matrix-style background, GSAP + Framer Motion animations, Three.js 3D integration, and a handcrafted CSS design system.
+This project is built using modern web development tools and libraries:
 
----
+- **Framework:** [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Animation & 3D Integration:** 
+  - [GSAP](https://gsap.com/) & `@gsap/react`
+  - [Framer Motion](https://www.framer.com/motion/)
+  - [Three.js](https://threejs.org/) (`@react-three/fiber`, `@react-three/drei`)
+- **Styling:** Custom standard CSS3 (`index.css`, `App.css`) mapping to a finely-tuned design system.
+- **Icons:** [Lucide React](https://lucide.dev/) & [Devicon](https://devicon.dev/)
+- **Linting:** ESLint
 
-## Screenshots
-
-<div align="center">
-
-  <img width="850" alt="Hero Section" src="YOUR_HERO_SCREENSHOT_URL" />
-  <p><i>Hero Section — Matrix animation background with custom animated cursor</i></p>
-
-  <br/>
-
-  <img width="850" alt="Skills and Education" src="YOUR_SKILLS_SCREENSHOT_URL" />
-  <p><i>Skills & Education — Scroll-reveal timeline and tech stack grid</i></p>
-
-  <br/>
-
-  <img width="850" alt="Projects Carousel" src="YOUR_PROJECTS_SCREENSHOT_URL" />
-  <p><i>Projects — Custom image carousel with live and repo links</i></p>
-
-  <br/>
-
-  <img width="850" alt="Certifications" src="YOUR_CERTIFICATIONS_SCREENSHOT_URL" />
-  <p><i>Certifications — Custom slider showcasing certificate images</i></p>
-
-</div>
-
-**🔗 Live Demo:** [my-port-folio-weld-eight.vercel.app](https://my-port-folio-weld-eight.vercel.app/)
-
----
-
-## Overview
-
-This portfolio was built entirely from scratch — no templates, no Bootstrap, no UI libraries. Every section, animation, and layout was handcrafted to demonstrate not just *what* I've built, but *how* I build.
-
-It features 7 distinct sections (Introduction, About, Education, Skills, Projects, Certifications, Contact), a Matrix-style canvas background, a custom animated cursor, and scroll-driven timeline animations — all optimized for smooth 60fps performance.
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Core Framework | React 19 (Vite-powered) |
-| Animations | GSAP + `@gsap/react`, Framer Motion |
-| 3D Integration | Three.js (`@react-three/fiber`, `@react-three/drei`) |
-| Scroll Animations | Intersection Observer API (raw, no library) |
-| Styling | Custom CSS3 — Handcrafted Design System (`index.css`, `App.css`) |
-| Icons | Lucide React, Devicon |
-| Linting | ESLint (Flat Config) |
-| Deployment | Vercel |
-
----
-
-## Technical Highlights
-
-### 1. Matrix-Style Background & Custom Cursor
-A canvas-based Matrix animation runs as the site background, built with raw JavaScript. A fully custom animated cursor replaces the browser default — both crafted without any third-party animation library.
-
-### 2. Multi-Library Animation Architecture
-Three animation systems work together — **GSAP** handles entrance sequences and timeline-based choreography, **Framer Motion** manages component-level transitions, and the **Intersection Observer API** drives scroll-reveal triggers. Each is used where it performs best.
-
-### 3. Three.js 3D Integration
-`@react-three/fiber` and `@react-three/drei` bring 3D elements into the React component tree, adding depth and interactivity to the visual experience without breaking the component-based architecture.
-
-### 4. Custom Carousels — No Library
-Both the Projects and Certifications sections use handbuilt image sliders — touch-friendly, keyboard-navigable, and fully controlled via React state — demonstrating DOM and event handling without reaching for a carousel package.
-
-### 5. Handcrafted Design System
-All styles live in `index.css` (global variables, utility classes, keyframes) and `App.css` (component-specific rules). No Tailwind, no styled-components — a deliberate choice to showcase deep CSS3 proficiency.
-
----
-
-## Project Structure
+## 📂 Folder Structure
 
 ```text
-MyPortFolio/
-├── public/
-│   ├── screenshots/             <-- Project & certification images
-│   ├── favicon.svg              <-- Tab icon
-│   └── icons.svg                <-- SVG icon sprites
-├── src/
-│   ├── assets/                  <-- Bundled static assets
-│   ├── App.jsx                  <-- Main component — all sections & core logic
-│   ├── App.css                  <-- Component-specific styles
-│   ├── index.css                <-- Global design system, CSS variables, keyframes
-│   └── main.jsx                 <-- React DOM entry point
-├── package.json                 <-- Dependencies & scripts
-├── vite.config.js               <-- Vite build configuration
-└── eslint.config.js             <-- ESLint flat config
+my-portfolio/
+├── public/                 # Static assets that don't need bundling
+│   ├── screenshots/        # Project and certification screenshot images
+│   ├── favicon.svg         # Tab icon
+│   └── icons.svg           # Scalable vector graphics used
+├── src/                    # Main application source code
+│   ├── assets/             # Bundled static assets
+│   ├── App.jsx             # Main React Application Component (Core logic and UI)
+│   ├── App.css             # Component-specific styles
+│   ├── index.css           # Global design system, CSS variables, and utility classes
+│   └── main.jsx            # React DOM rendering entry point
+├── package.json            # Project metadata, scripts, and dependencies
+├── vite.config.js          # Vite build tool configuration
+└── eslint.config.js        # ESLint flat config for code quality
 ```
 
----
+## 🚀 Getting Started
 
-## Local Setup
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
-- Node.js 18+
 
-### Steps
+Ensure you have Node.js installed on your system.
 
-```bash
-git clone https://github.com/KadamAmruta03/MyPortFolio.git
-cd MyPortFolio
-npm install
-npm run dev
-```
+### Installation
 
-Open: `http://localhost:5173`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KadamAmruta03/MyPortFolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd my-portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit the URL displayed in the terminal (usually `http://localhost:5173`).
 
-```bash
-# Production build
-npm run build
+## 📬 Contact
 
-# Preview production build locally
-npm run preview
-```
-
----
-
-## What I Built This To Demonstrate
-
-- **Advanced animation orchestration** — GSAP, Framer Motion, and Intersection Observer used together with clear separation of concerns
-- **3D in React** — Three.js integrated cleanly via `@react-three/fiber` without breaking component architecture
-- **Pure CSS mastery** — full design system built without any utility framework
-- **Custom interactive components** — carousels, animated cursor, and canvas background built from scratch
-- **Performance-first mindset** — 60fps animations, lazy loading, and optimized Vite production build
-
----
-
-## Connect With Me
-
-**Amruta Kadam**
-
-- 📧 Email: [Kadamamruta0555@gmail.com](mailto:Kadamamruta0555@gmail.com)
-- 💼 LinkedIn: [amruta-kadam-6b3bbb312](https://www.linkedin.com/in/amruta-kadam-6b3bbb312/)
-- 🐙 GitHub: [KadamAmruta03](https://github.com/KadamAmruta03)
-- 🐦 Twitter / X: [@_amrutakadam](https://x.com/_amrutakadam)
-
----
-
-## License
-
-This project is open-source 
+**Amruta Kadam**  
+- Email: [Kadamamruta0555@gmail.com](mailto:Kadamamruta0555@gmail.com)
+- LinkedIn: [Amruta Kadam](https://www.linkedin.com/in/amruta-kadam-6b3bbb312/)
+- Twitter / X: [@_amrutakadam](https://x.com/_amrutakadam)
+- GitHub: [KadamAmruta03](https://github.com/KadamAmruta03)

@@ -94,6 +94,7 @@ const PROJECTS = [
   {
     num: '01', title: 'Workflow Orchestor',
     desc: 'A smart workflow automation platform that streamlines task management, team collaboration, and process orchestration for modern development teams.',
+    repo: 'https://orchestrator-workflow.vercel.app/auth',
     stack: ['MongoDB','React','Express.js', 'Node.js' ],
 images: [
 
@@ -119,12 +120,14 @@ images: [
   {
     num: '02', title: 'ScholarSphere',
     desc: 'An academic resource hub connecting students with curated study materials, peer notes, and collaborative learning tools — built for the next generation of scholars.',
+    repo: 'https://scholarsphere-pied.vercel.app/auth',
     stack: ['MySQL','React', 'Node.js','Express.js', 'CSS3'],
     images: ['/screenshots/project2a.png','/screenshots/project2b.png','/screenshots/project2c.png','/screenshots/project2d.png','/screenshots/project2e.png','/screenshots/project2f.png','/screenshots/project2g.png','/screenshots/project2h.png','/screenshots/project2i.png','/screenshots/project2j.png','/screenshots/project2k.png','/screenshots/project22.png','/screenshots/project2m.png'],
   },
   {
     num: '03', title: 'Evra Website',
     desc: 'A sleek, high-performance marketing website for Evra — featuring smooth animations, responsive layouts, and a modern design system built with pixel-perfect precision.',
+    repo: 'https://evra-jewelry.vercel.app/',
     stack: ['React', 'CSS3', 'JavaScript', ],
 images: [
   '/screenshots/img1.png', '/screenshots/img2.png', '/screenshots/img3.png', 
@@ -142,6 +145,7 @@ images: [
   {
     num: '04', title: ' CampusRetain',
     desc: 'CampusLostFound is a centralized web platform designed to help students and faculty report lost items and claim found property within a campus ecosystem.',
+    repo: 'https://campusretain.onrender.com/',
     stack: ['Java', 'NetBeans', 'MySQL', 'Apache Tomcat', 'jBCrypt', 'JDBC', 'CSS3', 'JavaScript'],
     images: ['/screenshots/c1.png', '/screenshots/c2.png', '/screenshots/c3.png', '/screenshots/c4.png', '/screenshots/c5.png', '/screenshots/c6.png'],  },
 
@@ -203,6 +207,12 @@ function ProjectsSlider() {
       </div>
     </div>
     <p className="proj-desc">{p.desc}</p>
+    {p.repo && (
+      <a href={p.repo} target="_blank" rel="noreferrer" className="proj-repo-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--cherry)', textDecoration: 'none', marginBottom: '1.5rem', fontWeight: '500', fontSize: '0.9rem' }}>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        View Live Demo ↗
+      </a>
+    )}
     <div className="proj-dots">
       {PROJECTS.map((_, i) => (
         <button key={i} className={`proj-dot${i === activeProject ? ' active' : ''}`} onClick={() => goToProject(i)} aria-label={`Project ${i + 1}`} />
