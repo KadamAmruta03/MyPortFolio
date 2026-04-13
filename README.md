@@ -14,26 +14,37 @@
 > A visually striking, fully responsive portfolio website built to showcase my journey as a Full Stack Developer — featuring a Matrix-style background, GSAP + Framer Motion animations, Three.js 3D integration, and a handcrafted CSS design system.
 
 
-<img width="850" alt="Hero Section" src="https://github.com/user-attachments/assets/16341c0a-9b20-43b8-ab7b-6f8856b68647" />
+<div align="center">
 
-<p><i>Matrix animation background with custom animated cursor</i></p>
+  <!-- Hero Section -->
+  <img width="850" alt="Hero Section" src="https://github.com/user-attachments/assets/16341c0a-9b20-43b8-ab7b-6f8856b68647" />
+  <p><i>Hero Section — Matrix animation background with custom animated cursor</i></p>
 
-<img width="850" alt="Education" src="https://github.com/user-attachments/assets/c8f41c12-74f1-4458-8b6d-a31c3e259961" />
+  <br/>
 
-<p><i>Academic timeline with structured progression</i></p>
+  <!-- Education -->
+  <img width="850" alt="Education" src="https://github.com/user-attachments/assets/c8f41c12-74f1-4458-8b6d-a31c3e259961" />
+  <p><i>Education — Academic timeline with structured progression</i></p>
 
-<img width="850" alt="Skills" src="https://github.com/user-attachments/assets/e1f28a54-0d75-49ff-891f-076d0b04b9a9" />
+  <br/>
 
-<p><i>Tech stack grid with categorized technologies</i></p>
+  <!-- Skills -->
+  <img width="850" alt="Skills" src="https://github.com/user-attachments/assets/e1f28a54-0d75-49ff-891f-076d0b04b9a9" />
+  <p><i>Skills — Tech stack grid with categorized technologies</i></p>
 
-<img width="850" alt="Projects" src="https://github.com/user-attachments/assets/d593d8a0-c759-4770-be6d-d994ca5570a0" />
+  <br/>
 
-<p><i>Interactive showcase with live demo and repository links</i></p>
+  <!-- Projects -->
+  <img width="850" alt="Projects" src="https://github.com/user-attachments/assets/d593d8a0-c759-4770-be6d-d994ca5570a0" />
+  <p><i>Projects — Interactive showcase with live demo and repository links</i></p>
 
-<img width="850" alt="Contact" src="https://github.com/user-attachments/assets/4aa5d999-ce15-4835-83e5-882c085f3c98" />
+  <br/>
 
-<p><i>Contact section with social links and communication options</i></p>
+  <!-- Contact -->
+  <img width="850" alt="Contact" src="https://github.com/user-attachments/assets/4aa5d999-ce15-4835-83e5-882c085f3c98" />
+  <p><i>Contact — Social links and communication section</i></p>
 
+</div>
 
 ** Live Demo:** [my-port-folio-weld-eight.vercel.app](https://my-port-folio-weld-eight.vercel.app/)
 
