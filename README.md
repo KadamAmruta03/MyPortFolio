@@ -13,37 +13,38 @@
 
 > A visually striking, fully responsive portfolio website built to showcase my journey as a Full Stack Developer — featuring a Matrix-style background, GSAP + Framer Motion animations, Three.js 3D integration, and a handcrafted CSS design system.
 
-<div align="center">
+## 🚀 Hero Section
+<img width="850" alt="Hero Section" src="https://github.com/user-attachments/assets/16341c0a-9b20-43b8-ab7b-6f8856b68647" />
 
-  <!-- Hero Section -->
-  <img width="850" alt="Hero Section" src="https://github.com/user-attachments/assets/7fbeee40-5dd2-4ff4-95fe-9dca672509ad" />
-  <p><i>Hero Section — Matrix animation background with custom animated cursor</i></p>
+<p><i>Matrix animation background with custom animated cursor</i></p>
 
-  <br/>
+---
 
-  <!-- Education -->
-  <img width="850" alt="Education" src="https://github.com/user-attachments/assets/bc783a16-acef-4232-956d-e9385646763c" />
-  <p><i>Education — Academic timeline with structured progression</i></p>
+## 🎓 Education
+<img width="850" alt="Education" src="https://github.com/user-attachments/assets/c8f41c12-74f1-4458-8b6d-a31c3e259961" />
 
-  <br/>
+<p><i>Academic timeline with structured progression</i></p>
 
-  <!-- Skills -->
-  <img width="850" alt="Skills" src="https://github.com/user-attachments/assets/25dc8260-38b2-4248-a65e-82188b23e581" />
-  <p><i>Skills — Tech stack grid with categorized technologies</i></p>
+---
 
-  <br/>
+## 🛠️ Skills
+<img width="850" alt="Skills" src="https://github.com/user-attachments/assets/e1f28a54-0d75-49ff-891f-076d0b04b9a9" />
 
-  <!-- Projects -->
-  <img width="850" alt="Projects" src="https://github.com/user-attachments/assets/ba4b4733-4d01-498f-aee2-26db16f1d5a9" />
-  <p><i>Projects — Interactive showcase with live demo and repository links</i></p>
+<p><i>Tech stack grid with categorized technologies</i></p>
 
-  <br/>
+---
 
-  <!-- Certifications -->
-  <img width="850" alt="Certifications" src="https://github.com/user-attachments/assets/9e0d8533-a3f5-4d86-af63-668771ede05b" />
-  <p><i>Certifications — Slider showcasing verified achievements</i></p>
+## 💼 Projects
+<img width="850" alt="Projects" src="https://github.com/user-attachments/assets/d593d8a0-c759-4770-be6d-d994ca5570a0" />
 
-</div>
+<p><i>Interactive showcase with live demo and repository links</i></p>
+
+---
+
+## 📬 Contact
+<img width="850" alt="Contact" src="https://github.com/user-attachments/assets/4aa5d999-ce15-4835-83e5-882c085f3c98" />
+
+<p><i>Contact section with social links and communication options</i></p>
 
 
 **🔗 Live Demo:** [my-port-folio-weld-eight.vercel.app](https://my-port-folio-weld-eight.vercel.app/)
