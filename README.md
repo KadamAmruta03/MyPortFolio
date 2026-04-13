@@ -15,25 +15,36 @@
 
 <div align="center">
 
-  <img width="850" alt="Hero Section" src="YOUR_HERO_SCREENSHOT_URL" />
+  <!-- Hero Section -->
+  <img width="850" alt="Hero Section" src="https://github.com/user-attachments/assets/7fbeee40-5dd2-4ff4-95fe-9dca672509ad" />
   <p><i>Hero Section — Matrix animation background with custom animated cursor</i></p>
 
   <br/>
 
-  <img width="850" alt="Skills and Education" src="YOUR_SKILLS_SCREENSHOT_URL" />
-  <p><i>Skills & Education — Scroll-reveal timeline and tech stack grid</i></p>
+  <!-- Education -->
+  <img width="850" alt="Education" src="https://github.com/user-attachments/assets/bc783a16-acef-4232-956d-e9385646763c" />
+  <p><i>Education — Academic timeline with structured progression</i></p>
 
   <br/>
 
-  <img width="850" alt="Projects Carousel" src="YOUR_PROJECTS_SCREENSHOT_URL" />
-  <p><i>Projects — Custom image carousel with live and repo links</i></p>
+  <!-- Skills -->
+  <img width="850" alt="Skills" src="https://github.com/user-attachments/assets/25dc8260-38b2-4248-a65e-82188b23e581" />
+  <p><i>Skills — Tech stack grid with categorized technologies</i></p>
 
   <br/>
 
-  <img width="850" alt="Certifications" src="YOUR_CERTIFICATIONS_SCREENSHOT_URL" />
-  <p><i>Certifications — Custom slider showcasing certificate images</i></p>
+  <!-- Projects -->
+  <img width="850" alt="Projects" src="https://github.com/user-attachments/assets/ba4b4733-4d01-498f-aee2-26db16f1d5a9" />
+  <p><i>Projects — Interactive showcase with live demo and repository links</i></p>
+
+  <br/>
+
+  <!-- Certifications -->
+  <img width="850" alt="Certifications" src="https://github.com/user-attachments/assets/9e0d8533-a3f5-4d86-af63-668771ede05b" />
+  <p><i>Certifications — Slider showcasing verified achievements</i></p>
 
 </div>
+
 
 **🔗 Live Demo:** [my-port-folio-weld-eight.vercel.app](https://my-port-folio-weld-eight.vercel.app/)
 
@@ -140,4 +151,4 @@ npm run preview
 
 ## License
 
-This project is open-source 
+This project is open-source. Contributions are welcome.
