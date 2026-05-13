@@ -1,14 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import './index.css';
 
-const NAV_SECTIONS = ['hero', 'about', 'education', 'skills', 'projects', 'certifications', 'contact'];
+const NAV_SECTIONS = ['hero', 'about', 'education', 'skills', 'projects', 'contact'];
 const TOP_NAV_ITEMS = [
   { label: 'Introduction', section: 'hero' },
   { label: 'About', section: 'about' },
   { label: 'Education', section: 'education' },
   { label: 'Skills', section: 'skills' },
   { label: 'Projects', section: 'projects' },
-  { label: 'Certifications', section: 'certifications' },
   { label: 'Contact', section: 'contact' },
 ];
 
@@ -151,24 +150,6 @@ images: [
 
 ];
 
-const CERTIFICATIONS = [
-  {
-    num: '01',
-    title: 'Meta Front-End Developer Professional Certificate',
-    issuer: 'Coursera',
-    desc: 'In Progress (Expected 2026)',
-    image: '/screenshots/certifiction.jpg',
-  },
-  {
-    num: '02',
-    title: 'Meta Back-End Developer Professional Certificate',
-    issuer: 'Coursera',
-    desc: 'In Progress (Expected 2026)',
-    image: '/screenshots/certifiction.jpg',
-  },
-
-];
-
 function ProjectsSlider() {
   const [activeProject, setActiveProject] = useState(0);
   const [activeSlide,   setActiveSlide]   = useState(0);
@@ -223,50 +204,8 @@ function ProjectsSlider() {
 
   </div>
   <span className="section-label">Projects</span>
-  <span className="section-number">05 / 07</span>
+  <span className="section-number">05 / 06</span>
 </section>
-  );
-}
-
-function CertificationsSlider() {
-  const [activeCertification, setActiveCertification] = useState(0);
-  const certificate = CERTIFICATIONS[activeCertification];
-
-  return (
-    <section className="section" id="certifications">
-      <div className="cert-slider">
-        <p className="proj-eyebrow">Certifications</p>
-
-        <div className="cert-image-wrap">
-          {CERTIFICATIONS.map((item, index) => (
-            <img
-              key={item.num}
-              src={item.image}
-              alt={`${item.title} certificate`}
-              className={`cert-image${index === activeCertification ? ' active' : ''}`}
-            />
-          ))}
-        </div>
-
-        <div className="cert-info">
-          <h3 className="proj-title cert-title">{certificate.title}</h3>
-          <p className="cert-issuer">{certificate.issuer}</p>
-          <p className="proj-desc cert-desc">{certificate.desc}</p>
-          <div className="proj-dots">
-            {CERTIFICATIONS.map((item, index) => (
-              <button
-                key={item.num}
-                className={`proj-dot${index === activeCertification ? ' active' : ''}`}
-                onClick={() => setActiveCertification(index)}
-                aria-label={`Certificate ${index + 1}`}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-      <span className="section-label">Certifications</span>
-      <span className="section-number">06 / 07</span>
-    </section>
   );
 }
 
@@ -509,7 +448,7 @@ return () => { dotObs.disconnect(); revealObs.disconnect(); contactObs.disconnec
       <span>Scroll</span>
     </div>
   <span className="section-label">Introduction</span>
-  <span className="section-number">01 / 07</span>
+  <span className="section-number">01 / 06</span>
 </section>
 
       {}
@@ -533,7 +472,7 @@ BUILDING<br/>THE <em>WEB,</em><br/>ONE PX<br/>AT A TIME
           </div>
         </div>
         <span className="section-label">Who I Am</span>
-        <span className="section-number">02 / 07</span>
+        <span className="section-number">02 / 06</span>
       </section>
 
       {}
@@ -561,7 +500,7 @@ BUILDING<br/>THE <em>WEB,</em><br/>ONE PX<br/>AT A TIME
           </div>
         </div>
         <span className="section-label">Background</span>
-        <span className="section-number">03 / 07</span>
+        <span className="section-number">03 / 06</span>
       </section>
 
       {}
@@ -588,11 +527,11 @@ BUILDING<br/>THE <em>WEB,</em><br/>ONE PX<br/>AT A TIME
           </div>
         </div>
         <span className="section-label">Capabilities</span>
-        <span className="section-number">04 / 07</span>
+        <span className="section-number">04 / 06</span>
       </section>
 
       <ProjectsSlider />
-      <CertificationsSlider />
+
 <section className="section" id="contact" style={{ position: 'relative' }}>
   <div className="contact-bg"></div>
 
@@ -682,10 +621,9 @@ BUILDING<br/>THE <em>WEB,</em><br/>ONE PX<br/>AT A TIME
   </div>
 
   <span className="section-label">Contact</span>
-  <span className="section-number">07 / 07</span>
+  <span className="section-number">06 / 06</span>
 </section>
 
     </>
   );
 }
-
